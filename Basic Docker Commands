@@ -3,6 +3,21 @@ Displays the installed Docker version.
 Example: docker --version 
 
 2. docker info 
-Shows system-wide information about Docker, such as the number of containers and 
-images. 
+Shows system-wide information about Docker, such as the number of containers and images. 
 Example: docker info
+
+3. docker pull 
+Downloads an image from a Docker registry (default: Docker Hub). 
+Example: docker pull ubuntu:latest 
+
+4. docker images 
+Lists all downloaded images. 
+Example: docker images 
+
+5. docker run 
+Creates and starts a new container from an image. 
+Example: docker run -it ubuntu bash 
+
+6. docker ps 
+Lists running containers. 
+Example: docker ps 
