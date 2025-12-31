@@ -33,3 +33,15 @@ Example: docker stop container_name
 9. docker start 
 Starts a stopped container. 
 Example: docker start container_name 
+
+10. docker rm 
+Removes a container. 
+Example: docker rm container_name 
+
+11. docker rmi 
+Removes an image. 
+Example: docker rmi image_name 
+
+12. docker exec 
+Runs a command inside a running container. 
+Example: docker exec -it container_name bash
