@@ -33,3 +33,15 @@ Example: docker network ls
 21. docker network create 
 Creates a new Docker network. 
 Example: docker network create my_network 
+
+22. docker network inspect 
+Shows details about a Docker network. 
+Example: docker network inspect my_network 
+
+23. docker network connect 
+Connects a container to a network. 
+Example: docker network connect my_network container_name 
+
+24. docker volume ls 
+Lists all Docker volumes. 
+Example: docker volume ls 
