@@ -45,3 +45,15 @@ Example: docker network connect my_network container_name
 24. docker volume ls 
 Lists all Docker volumes. 
 Example: docker volume ls 
+
+25. docker volume create 
+Creates a new Docker volume. 
+Example: docker volume create my_volume 
+
+26. docker volume inspect 
+Provides details about a volume. 
+Example: docker volume inspect my_volume 
+
+27. docker volume rm 
+Removes a Docker volume. 
+Example: docker volume rm my_volume 
