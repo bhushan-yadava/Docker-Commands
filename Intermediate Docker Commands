@@ -9,3 +9,16 @@ Example: docker commit container_name my_image:tag
 15. docker logs 
 Fetches logs from a container. 
 Example: docker logs container_name
+
+16. docker inspect 
+Returns detailed information about an object (container or image). 
+Example: docker inspect container_name 
+
+17. docker stats 
+Displays live resource usage statistics of running containers. 
+Example: docker stats 
+
+18. docker cp 
+Copies files between a container and the host. 
+Example: docker cp container_name:/path/in/container 
+/path/on/host
