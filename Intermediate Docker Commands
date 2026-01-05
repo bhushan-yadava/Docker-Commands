@@ -1,0 +1,11 @@
+13. docker build 
+Builds an image from a Dockerfile. 
+Example: docker build -t my_image . 
+
+14. docker commit 
+Creates a new image from a container’s changes. 
+Example: docker commit container_name my_image:tag 
+
+15. docker logs 
+Fetches logs from a container. 
+Example: docker logs container_name
