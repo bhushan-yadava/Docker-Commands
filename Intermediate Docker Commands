@@ -20,5 +20,16 @@ Example: docker stats
 
 18. docker cp 
 Copies files between a container and the host. 
-Example: docker cp container_name:/path/in/container 
-/path/on/host
+Example: docker cp container_name:/path/in/container /path/on/host
+
+19. docker rename 
+Renames a container. 
+Example: docker rename old_name new_name 
+
+20. docker network ls 
+Lists all Docker networks. 
+Example: docker network ls 
+
+21. docker network create 
+Creates a new Docker network. 
+Example: docker network create my_network 
