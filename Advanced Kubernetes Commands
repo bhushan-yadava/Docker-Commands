@@ -77,3 +77,23 @@ Example: kubectl delete pv my-pv
 40. kubectl get ingress 
 Lists all Ingress resources in the namespace. 
 Example: kubectl get ingress 
+
+41. kubectl create configmap 
+Creates a ConfigMap from a file or literal values. 
+Example: kubectl create configmap my-config --from-literal=key1=value1
+
+42. kubectl create secret 
+Creates a Secret from a file or literal values. 
+Example: kubectl create secret generic my-secret --from-literal=password=myPassword
+
+43. kubectl api-resources 
+Lists all available API resources in the cluster. 
+Example: kubectl api-resources
+
+44. kubectl api-versions 
+Lists all API versions supported by the cluster. 
+Example: kubectl api-versions
+
+45. kubectl get crds 
+Lists all CustomResourceDefinitions (CRDs). 
+Example: kubectl get crds
