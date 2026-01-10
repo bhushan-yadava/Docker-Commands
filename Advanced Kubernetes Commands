@@ -37,3 +37,25 @@ Example: kubectl apply -k ./kustomization-dir/
 30. kubectl config view 
 Displays the kubeconfig file. 
 Example: kubectl config view
+
+31. kubectl config use-context 
+Switches the active context in kubeconfig. 
+Example: kubectl config use-context my-cluster
+
+32. kubectl debug 
+Creates a debugging session for a pod. 
+Example: kubectl debug pod-name
+
+33. kubectl delete namespace 
+Deletes a namespace and its resources. 
+Example: kubectl delete namespace my-namespace
+
+34. kubectl patch 
+Updates a resource using a patch. 
+Example: kubectl patch deployment my-deployment -p '{"spec": {"replicas": 2}}' 
+
+35. kubectl rollout history 
+Shows the rollout history of a deployment. 
+Example: kubectl rollout history deployment my-deployment
+
+
