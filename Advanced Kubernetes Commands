@@ -25,3 +25,15 @@ Example: kubectl drain node-name --ignore-daemonsets
 27. kubectl taint 
 Adds a taint to a node to control pod placement. 
 Example: kubectl taint nodes node-name key=value:NoSchedule
+
+28. kubectl get events 
+Lists all events in the cluster. 
+Example: kubectl get events
+
+29. kubectl apply -k 
+Applies resources from a kustomization directory. 
+Example: kubectl apply -k ./kustomization-dir/
+
+30. kubectl config view 
+Displays the kubeconfig file. 
+Example: kubectl config view
