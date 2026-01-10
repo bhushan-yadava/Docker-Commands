@@ -58,4 +58,22 @@ Example: kubectl patch deployment my-deployment -p '{"spec": {"replicas": 2}}'
 Shows the rollout history of a deployment. 
 Example: kubectl rollout history deployment my-deployment
 
+36. kubectl autoscale 
+Automatically scales a deployment based on resource usage. 
+Example: kubectl autoscale deployment my-deployment --cpu-percent=50 --min=1 --max=10 
 
+37. kubectl label 
+Adds or modifies a label on a resource. 
+Example: kubectl label pod pod-name environment=production
+
+38. kubectl annotate 
+Adds or modifies an annotation on a resource. 
+Example: kubectl annotate pod pod-name description="My app pod"
+
+39. kubectl delete pv 
+Deletes a PersistentVolume (PV). 
+Example: kubectl delete pv my-pv
+
+40. kubectl get ingress 
+Lists all Ingress resources in the namespace. 
+Example: kubectl get ingress 
