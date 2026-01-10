@@ -9,3 +9,19 @@ Example: kubectl top nodes
 23. kubectl top pods 
 Displays resource usage for pods. 
 Example: kubectl top pods
+
+24. kubectl cordon 
+Marks a node as unschedulable. 
+Example: kubectl cordon node-name
+
+25. kubectl uncordon 
+Marks a node as schedulable. 
+Example: kubectl uncordon node-name
+
+26. kubectl drain 
+Safely evicts all pods from a node. 
+Example: kubectl drain node-name --ignore-daemonsets
+
+27. kubectl taint 
+Adds a taint to a node to control pod placement. 
+Example: kubectl taint nodes node-name key=value:NoSchedule
