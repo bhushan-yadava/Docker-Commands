@@ -1,9 +1,11 @@
 21. kubectl rollout undo 
 Rolls back a deployment to a previous revision. 
 Example: kubectl rollout undo deployment/my-deployment
+
 22. kubectl top nodes 
 Shows resource usage for nodes. 
 Example: kubectl top nodes 
+
 23. kubectl top pods 
 Displays resource usage for pods. 
 Example: kubectl top pods
